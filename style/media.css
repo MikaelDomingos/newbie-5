@@ -1,0 +1,40 @@
+@media (max-width: 930px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-subtitle {
+    display: inline-block;
+    text-align: center;
+  }
+  h1 {
+    position: relative;
+    left: 0px;
+  }
+
+  .subtitle {
+    position: relative;
+    left: 0px;
+  }
+
+  .stars {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    right: initial;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+  }
+}

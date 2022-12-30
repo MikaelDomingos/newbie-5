@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h1 {
+  font-size: 56px;
+  font-weight: 700px;
+  letter-spacing: -2px;
+  color: #512051;
+}
+.subtitle {
+  font-size: 19px;
+  line-height: 25px;
+  color: #927b91;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 40px;
+}
+
+.stars {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  background-color: #f7f2f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.stars-svg {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.star-1 {
+  right: 100px;
+}
+
+.star-2 {
+  right: 50px;
+}
+
+h3 {
+  font-size: 17px;
+  text-align: center;
+  color: #512051;
+}
+
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+h4 {
+  font-size: 17px;
+  color: #ffffff;
+}
+h5 {
+  font-size: 17px;
+  color: #ee69a4;
+}
+p {
+  margin-top: 30px;
+  line-height: 22px;
+}
+
+.card {
+  background-color: #512051;
+  max-width: 350px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.card-text {
+  font-size: 17px;
+  letter-spacing: -0.303571px;
+  color: #ffffff;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-photo {
+  width: 40px;
+  border-radius: 40px;
+}
+
+.card-1 {
+  top: 0;
+}
+
+.card-2 {
+  top: 20px;
+}
+
+.card-3 {
+  top: 40px;
+}
